@@ -62,16 +62,17 @@
 					decreaseCursor();
 					event.preventDefault();
 					break;
-				case 49: // "1"
+				case 49: // "1": jump to first.
 					setCursor(0);
 					break;
-				case 82: // "r"
+				case 82: // "r": quick reset.
 					container.css('top', 0);
+					setCursor(0);
 					break;
-				case 74: // "j"
+				case 74: // "j": jump 10 ahead.
 					increaseCursor(10);
 					break;
-				case 75: // "k"
+				case 75: // "k": jump 10 back.
 					decreaseCursor(10);
 					break;
 				default:
@@ -85,6 +86,9 @@
 		setCursor(0);
 		// Set up key press handling.
 		$(window.document).keydown(handleKeyDown);
+		container.click(function(){
+			increaseCursor();
+		});
 
 	};
 
