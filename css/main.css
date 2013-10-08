@@ -1,0 +1,108 @@
+
+body {
+	background-color: #000;
+	color: #666;
+	font-family: Arial, sans-serif;
+	font-size: 72pt;
+	font-weight: bold;
+}
+
+#container {
+	position: fixed;
+	left: 20px;
+	right: 20px;
+}
+
+h1 {
+	color: #fff;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	border-width: 20px 0;
+	border-style: solid;
+	border-color: transparent;
+}
+
+.section {
+	margin: 1em 0;
+}
+
+
+.cursor {
+	color: #fff;
+	border-color: #fff;
+}
+
+.yokohama .cursor {
+	color: #FA558A;
+	border-color: #FA558A;
+}
+
+
+
+.wrong {
+	background-color: #444;
+}
+
+.wrong .cursor {
+	color: #F5D77A;
+	border-color: #F5D77A;
+	background-color: #222;
+}
+
+.emphasis {
+	color: #855;
+}
+
+.emphasis.cursor {
+	color: #d33;
+	border-color: #d33;
+}
+
+.meta {
+	font-style: italic;
+	font-size: 60%;
+	margin: 3em 0;
+}
+
+.meta p {
+	border-width: 10px 0;
+}
+
+.meta .cursor {
+	color: #fff;
+	border-color: #fff;
+}
+
+
+.name {
+	font-style: italic;
+	color: #36E6F5;
+}
+
+
+.funky .cursor {
+	-webkit-animation: funkycolors 2s linear 0s infinite alternate;
+	animation: funkycolors 2s linear 0s infinite alternate;
+
+}
+
+@-webkit-keyframes funkycolors {
+	0% { color: #36E6F5; border-color: #36E6F5;}
+	25% { color: #444; border-color: #444;}
+	50% { color: #FA558A; border-color: #FA558A;}
+	75% { color: #444; border-color: #444;}
+	100% { color: #A0D335; border-color: #A0D335; }
+}
+
+@-moz-keyframes funkycolors {
+	0% { color: #36E6F5; border-color: #36E6F5;}
+	25% { color: #444; border-color: #444;}
+	50% { color: #FA558A; border-color: #FA558A;}
+	75% { color: #444; border-color: #444;}
+	100% { color: #A0D335; border-color: #A0D335; }
+}
+
+
