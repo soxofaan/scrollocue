@@ -61,6 +61,10 @@ p {
 	border-color: #d33;
 }
 
+.title {
+	text-align: right;
+}
+
 .meta {
 	font-style: italic;
 	font-size: 60%;
