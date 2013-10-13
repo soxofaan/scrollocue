@@ -23,6 +23,8 @@ p {
 	border-width: 20px 0;
 	border-style: solid;
 	border-color: transparent;
+	transition: color .75s;
+	-webkit-transition: color .75s;
 }
 
 .section {
