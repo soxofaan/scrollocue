@@ -76,7 +76,9 @@
 					decreaseCursor(10);
 					break;
 				default:
-					console.info('Unhandled key down event ' + event.which, event);
+					if (window.console) {
+						window.console.info('Unhandled key down event ' + event.which, event);
+					}
 					break;
 			}
 		}
