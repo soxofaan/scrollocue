@@ -112,3 +112,26 @@ p {
 }
 
 
+a#forkongithub {
+	display: inline-block;
+	z-index: 1000;
+	position: fixed;
+	top: 0;
+	right: 0;
+	border: 0;
+	font-size: 1rem;
+	margin: 1rem;
+	padding: 1rem;
+	background: #222;
+	color: #888;
+	text-decoration: none;
+	transition:0.5s;
+}
+
+a#forkongithub:hover {
+	color: #fff;
+	background: #333;
+	margin: 0.5rem;
+	padding: 1.5rem;
+	border-radius: 0.5rem;
+}
